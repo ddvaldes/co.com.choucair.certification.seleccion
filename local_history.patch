@@ -1,0 +1,17 @@
+Index: src/test/resources/features/choucair_reg_usuario.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/features/choucair_reg_usuario.feature b/src/test/resources/features/choucair_reg_usuario.feature
+--- a/src/test/resources/features/choucair_reg_usuario.feature	
++++ b/src/test/resources/features/choucair_reg_usuario.feature	(date 1661141194930)
+@@ -6,7 +6,7 @@
+     @scenario1
+     Scenario: Registro de Daniela en uTest
+       Given Daniela desea registrarse en la plataforma Utest
+-      When El usuario ingresa toda la informacioon requerida por la pagina
++      When El usuario ingresa toda la informacioón requerida por la pagina
+         | strNombre | strApellido | strEmail                           | strMes  | strDia | strAno | strCuidad | strCodPostal | strCuidad | strComputador | strVersion | strLenguaje | strDispositivo | strModelo | strSistema | strContrasena |
+         | Daniela   | Valdes      | danieladayana.valdez2018@gmail.com | January | 12     | 2002   | Ibague    | 730004       | Colombia  | Windows       | 11         | Spanish     | Apple          | Iphone 12 | iOS 15     | Palpito123&%
+       Then el registro se completa cuando aparece el Boton Complete Setup
